@@ -1,0 +1,43 @@
+{
+  "name": "@mrbatista/grunt-file-rename",
+  "description": "Grunt plugin to rename files",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mrbatista/grunt-file-rename",
+  "author": {
+    "name": "Matteo Padovano",
+    "email": "mrba7ista@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mrbatista/grunt-file-rename.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mrbatista/grunt-file-rename/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/mrbatista/grunt-file-rename/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "grunt default"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-create": "^0.1.2"
+  },
+  "keywords": [
+    "gruntplugin",
+    "file rename"
+  ],
+  "dependencies": {
+    "async": "^2.1.4"
+  }
+}
