@@ -1,7 +1,7 @@
 {
   "name": "@mrbatista/grunt-file-rename",
   "description": "Grunt plugin to rename files",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/mrbatista/grunt-file-rename",
   "author": {
     "name": "Matteo Padovano",
