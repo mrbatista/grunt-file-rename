@@ -17,14 +17,14 @@ Once the plugin has been installed, it may be enabled inside your Gruntfile with
 grunt.loadNpmTasks('grunt-file-rename');
 ```
 
-## The "file_rename" task
+## The "fileRename" task
 
 ### Overview
-In your project's Gruntfile, add a section named `file_rename` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `fileRename` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
-  file_rename: {
+  fileRename: {
     options: {
       // Task-specific options go here.
     },
@@ -56,7 +56,7 @@ In this example, the default options are used to do something with whatever. So 
 
 ```js
 grunt.initConfig({
-  file_rename: {
+  fileRename: {
     options: {},
     files: {
       'dest/default_options': ['src/testing', 'src/123'],
@@ -70,7 +70,7 @@ In this example, custom options are used to do something else with whatever else
 
 ```js
 grunt.initConfig({
-  file_rename: {
+  fileRename: {
     options: {
       separator: ': ',
       punctuation: ' !!!',

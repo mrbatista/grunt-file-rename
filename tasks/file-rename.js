@@ -24,7 +24,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('file_rename', 'Grunt plugin to rename files', function() {
+  grunt.registerMultiTask('fileRename', 'Grunt plugin to rename files', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var done = this.async();
     

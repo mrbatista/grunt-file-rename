@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    file_rename: {
+    fileRename: {
       default_options: {
         src: ['tmp/default_options', 'tmp/default_options.json']
       },
@@ -57,7 +57,7 @@ module.exports = function(grunt) {
 
     // Unit tests.
     nodeunit: {
-      tests: ['test/*_test.js']
+      tests: ['test/*.test.js']
     }
 
   });
@@ -73,7 +73,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'create', 'file_rename', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'create', 'fileRename', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);
